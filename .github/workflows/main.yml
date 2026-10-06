@@ -19,6 +19,7 @@ jobs:
           host: ${{ secrets.NAMECHEAP_HOST }}
           username: ${{ secrets.NAMECHEAP_USERNAME }}
           key: ${{ secrets.NAMECHEAP_SSH_KEY }}
+          passphrase: ${{ secrets.NAMECHEAP_SSH_PASSPHRASE }}
           port: ${{ secrets.NAMECHEAP_PORT }}
           source: "index.html,style.css"
           target: "/home/bloovzki/public_html"
